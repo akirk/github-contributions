@@ -4,7 +4,7 @@
 	"title": "Github Contributions",
 	"category": "widgets",
 	"textdomain": "github-contributions",
-	"icon": "smiley",
+	"icon": "github",
 	"attributes": {
 		"limit": {
 			"type": "integer",
