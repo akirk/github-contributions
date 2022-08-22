@@ -15,3 +15,5 @@ Display your Github contributions on your WordPress site.
 This plugin provides a Gutenberg block and a widget for displaying Github contributions of a user.
 
 ![Screenshot](assets/screenshot-1.png)
+
+Disclaimer: This project is not affiliated with Github, it just queries the search API to display your contributions there.
