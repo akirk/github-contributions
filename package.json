@@ -1,0 +1,20 @@
+{
+  "name": "github-contributions",
+  "version": "0.1.0",
+  "description": "Show a widget of a user's Github contributions.",
+  "author": "Alex Kirk",
+  "license": "GPL-2.0-or-later",
+  "main": "build/index.js",
+  "homepage": "https://github.com/akirk/github-contributions",
+  "repository": "git+https://github.com/akirk/github-contributions.git",
+  "devDependencies": {
+    "@wordpress/scripts": "^23.0.0"
+  },
+  "scripts": {
+    "build": "wp-scripts build",
+    "format:js": "wp-scripts format-js",
+    "lint:js": "wp-scripts lint-js",
+    "packages-update": "wp-scripts packages-update",
+    "start": "wp-scripts start"
+  }
+}

@@ -1,0 +1,27 @@
+{
+	"apiVersion": 2,
+	"name": "akirk/github-contributions",
+	"title": "Github Contributions",
+	"category": "widgets",
+	"textdomain": "github-contributions",
+	"icon": "smiley",
+	"attributes": {
+		"limit": {
+			"type": "integer",
+			"default": 100
+		},
+		"sort": {
+			"type": "string",
+			"default": "date"
+		},
+		"username": {
+			"type": "string"
+		}
+	},
+	"example": {
+		"attributes": {
+			"username": "demo"
+		}
+	},
+	"editorScript": "file:./build/index.js"
+}
